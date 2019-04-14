@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="horizontal">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:id="@+id/listviewrowRelativeLayout1">
+
+		<LinearLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:gravity="center"
+			android:layout_alignBottom="@id/listviewrowRelativeLayout1"
+			android:layout_alignTop="@id/listviewrowRelativeLayout1"
+			android:layout_alignParentRight="true"
+			android:id="@+id/listviewrowLinearLayout1">
+
+			<ImageButton
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:src="@android:drawable/ic_menu_close_clear_cancel"
+				android:id="@+id/listviewrowImageButton1"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="Large Text"
+			android:id="@+id/listviewrowTextView1"
+			android:layout_toLeftOf="@id/listviewrowLinearLayout1"
+			android:layout_alignParentLeft="true"
+			android:textSize="18sp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="Large Text"
+			android:layout_below="@id/listviewrowTextView1"
+			android:id="@+id/listviewrowTextView2"
+			android:layout_toLeftOf="@id/listviewrowLinearLayout1"
+			android:layout_alignParentLeft="true"
+			android:textSize="18sp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="Medium Text"
+			android:layout_below="@id/listviewrowTextView2"
+			android:id="@+id/listviewrowTextView3"
+			android:layout_toLeftOf="@id/listviewrowLinearLayout1"
+			android:layout_alignParentLeft="true"
+			android:textSize="14sp"/>
+
+	</RelativeLayout>
+
+</LinearLayout>
+

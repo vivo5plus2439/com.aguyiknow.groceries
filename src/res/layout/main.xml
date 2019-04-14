@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:fab="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<ListView
+		android:id="@+id/mainListView"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_margin="16dp"
+		android:id="@+id/mainLinearLayout1">
+
+		<android.support.design.widget.FloatingActionButton
+			android:id="@+id/mainFloatingActionButton"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="0dp"
+			android:scaleType="center"
+			app:backgroundTint="@android:color/transparent"
+			app:borderWidth="0dp"
+			app:fabSize="normal"
+			android:layout_margin="@dimen/fab_margin"
+			app:srcCompat="@drawable/floating_button"/>
+
+	</LinearLayout>
+
+</RelativeLayout>
+
